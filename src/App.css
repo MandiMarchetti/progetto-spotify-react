@@ -17,7 +17,7 @@ body {
 }
 
 .navbar.fixed-left .navbar-collapse .navbar-nav a {
-  color: rgb(145, 145, 145) !important;
+  color: rgb(145, 145, 145);
   transition: 0.3s;
 }
 
@@ -44,7 +44,11 @@ body {
   list-style-type: none;
   padding-left: 3px;
 }
-
+.classe_lista > li > a:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  color: white !important;
+}
 .nav-btn {
   width: 100%;
   display: flex;

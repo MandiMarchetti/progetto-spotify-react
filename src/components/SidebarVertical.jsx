@@ -10,6 +10,7 @@ import Katy3 from "../shared/images/katy_las2 e 3.jpg";
 import Eminem1 from "../shared/images/eminem 1 e 2.jpg";
 import Eminem2 from "../shared/images/eminem 3 e 4.jpg";
 import AlbumCard from "./AlbumCard";
+import { BookFill, HouseFill } from "react-bootstrap-icons";
 
 const SidebarVertical = () => {
   const [list, setList] = useState([]);
@@ -59,12 +60,14 @@ const SidebarVertical = () => {
               <ul className="classe_lista">
                 <li>
                   <a className="nav-item nav-link d-flex align-items-center" href="#region">
-                    <i className="bi bi-book-fill"></i>&nbsp; Home
+                    <HouseFill />
+                    &nbsp; Home
                   </a>
                 </li>
                 <li>
                   <a className="nav-item nav-link d-flex align-items-center" href="#region">
-                    <i className="bi bi-book-fill"></i>&nbsp; Your Library
+                    <BookFill />
+                    &nbsp; Your Library
                   </a>
                 </li>
                 <li>
