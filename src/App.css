@@ -119,7 +119,6 @@ body {
 
 .playerControls a img {
   width: 14px;
-  margin-top: 1rem;
   filter: brightness(60%);
 }
 
@@ -188,4 +187,13 @@ body {
 
 .mainPage img {
   width: 200px;
+}
+.heart_like {
+  font-weight: bold;
+  color: rgb(145, 145, 145);
+  transition: 0.3s;
+}
+
+.active_heart {
+  color: red;
 }
