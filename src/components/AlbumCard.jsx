@@ -1,13 +1,13 @@
 import React from "react";
 
-const AlbumCard = function (songInfo) {
+const AlbumCard = function (props) {
   return (
-    <div className="col text-center" id={songInfo.id}>
-      <img className="img-fluid" src={songInfo.album.cover_medium} alt="track" />
+    <div className="col text-center" id={props.info.id}>
+      <img className="img-fluid" src={props.info.album.cover_medium} alt="track" />
       <p>
-        Track: {songInfo.title.length < 16 ? `${songInfo.title}` : `${songInfo.title.substring(0, 16)}...`}
+        Track: {props.info.title.length < 16 ? `${props.info.title}` : `${props.info.title.substring(0, 16)}...`}
         <br />
-        Artist: {songInfo.artist.name}
+        Artist: {props.info.artist.name}
       </p>
     </div>
   );

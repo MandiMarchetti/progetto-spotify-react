@@ -10,7 +10,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 250px;
   flex-flow: column nowrap;
   align-items: flex-start;
   background-color: black;
@@ -47,8 +46,11 @@ body {
 }
 
 .nav-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .nav-btn a {
@@ -162,6 +164,9 @@ body {
   font-size: 12px;
   color: white;
   font-weight: 700;
+}
+.mainPage {
+  padding-left: 250px;
 }
 
 #rock,
